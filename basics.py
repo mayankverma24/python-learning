@@ -5,13 +5,18 @@ print('Sum is ' + str(z))
 print("Hello Mayank")
 txt = "mayank"
 newTxt = " Hello World "
-#prints length of the string txt
+# prints length of the string txt
 print("Length of the string is: " + str(len(txt)))
-#prints 2nd character of the string x = mayank
+# prints 2nd character of the string x = mayank
 print(txt[1])
 #
 print(txt[1:4])
-#Removes leading and trailing spaces
+# Removes leading and trailing spaces
 print(newTxt.strip())
-#Convert the value of txt to upper case.
+# Convert the value of txt to upper case.
 print(txt.upper())
+
+# Python Lists
+thisList = ['Delta', 'American', 'United']
+#thisList[1]='Spirit'
+print(thisList)
